@@ -1,6 +1,6 @@
 {
   "name": "browser-lights",
-  "version": "0.9.1",
+  "version": "0.6.1",
   "description": "Lights along the top of the browser, to give basic status information",
   "author": "Matthew Forrester <matt@keyboardwritescode.com>",
   "dependencies": {
@@ -10,7 +10,7 @@
     "requirejs": "^2.1.11"
   },
   "engines": {
-    "node": ">0.9"
+    "node": ">0.6"
   },
   "repository": {
     "type": "git",
