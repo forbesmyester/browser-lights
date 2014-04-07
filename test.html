@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test Script</title>
+</head>
+<body>
+	<h1>Test Page</h1>
+	<p>This should show the colours Red, Green, Blue, Red, Green, Blue, Yellow, Yellow... again and again</p>
+</body>
+	<script src="node_modules/requirejs/require.js"></script>
+	
+	<script>
+		
+		require.config({
+			baseUrl: '.'
+		});
+		
+		require(['./index.js'], function(browserLights) {
+			var i = 0;
+			var getActiveColor = function(index) {
+				var colors = [
+					'red',
+					'green',
+					'blue',
+					'red',
+					'green',
+					'blue',
+					'yellow',
+					'yellow'
+				];
+				return colors[index % colors.length];
+			};
+			setInterval(function() {
+				if (i < 6)
+				browserLights(getActiveColor(i++));
+			}, 1000);
+		});
+	</script>
+
+</html>
+

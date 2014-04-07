@@ -1,0 +1,19 @@
+{
+  "name": "browser-lights",
+  "version": "0.9.1",
+  "description": "Lights along the top of the browser, to give basic status information",
+  "author": "Matthew Forrester <matt@keyboardwritescode.com>",
+  "dependencies": {
+    "bower": "^1.3.2"
+  },
+  "devDependencies": {
+    "requirejs": "^2.1.11"
+  },
+  "engines": {
+    "node": ">0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forbesmyester/browser-lights.git"
+  }
+}
