@@ -1,6 +1,6 @@
 {
   "name": "browser-lights",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Lights along the top of the browser, to give basic status information",
   "author": "Matthew Forrester <matt@keyboardwritescode.com>",
   "dependencies": { },
